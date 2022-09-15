@@ -1,0 +1,25 @@
+.receita__card{
+    background-color: #ffffff;
+    border-radius: .5rem ;
+    margin: 3% ;
+    min-width: 280px;
+    transition: 500ms;
+    width: 25%;
+}
+.receita__card:hover{
+    box-shadow: 3px 3px 15px rgb(77, 77, 77);
+    cursor: pointer;
+    transition: 500ms;
+}
+
+
+@media screen and (max-width: 701px) {
+    .receita__card{
+        background-color: #ffffff;
+        border-radius: .5rem ;
+        min-width: 280px;
+        margin: 3% ;
+        transition: 500ms;
+        width: 90%;
+    }
+  }
